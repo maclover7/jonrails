@@ -23,7 +23,7 @@ namespace :test do
       end
     end
 
-    require 'pry'; binding.pry
+    #require 'pry'; binding.pry
 
     test_files.each do |file|
       next true if file.include?("fixtures")
